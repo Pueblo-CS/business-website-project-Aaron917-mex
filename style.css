@@ -3,5 +3,25 @@ body {
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
+    margin:0px;
 }
+#header {
+    Background-color:#DA973F;
+    color:white;
+} 
+ .nav a {
+    color:white;
+     text-decoration: none; 
+    
+ } 
+ #hero {
+    font-size:22px;
+    color:white;
+ }
+
+ #cta {
+    background-color:#DA973F; 
+    color:white; 
+    text-decoration: none;
+ }
