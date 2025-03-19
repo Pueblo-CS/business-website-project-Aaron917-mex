@@ -6,22 +6,40 @@ body {
     background-size: cover; 
     margin:0px;
 }
-#header {
-    Background-color:#DA973F;
-    color:white;
+#header, .nav > a,#hero, #cta{
+        color:white;
 } 
- .nav a {
-    color:white;
-     text-decoration: none; 
+    #header {
+    Background-color:#DA973F;
     
- } 
+} 
+ a {
+     text-decoration: none; 
+a:hover {
+    text-decoration:underline;
+} 
+ 
+ 
+} 
  #hero {
     font-size:22px;
-    color:white;
+    
  }
 
  #cta {
     background-color:#DA973F; 
-    color:white; 
     text-decoration: none;
+ } 
+
+ #cta:hover {
+    background-color: white;
+    color: #ffc12f;
+ }
+
+ #services{
+    background-color:#eec084:
+ } 
+ .card{
+    background-color:white;
+    width:fit-content;
  }
